@@ -8,8 +8,8 @@ docker run -d -p 8000:8000 -p 9443:9443 -p 9000:9000 --name portainer -v /var/ru
 
 #download other required images
 docker pull postgres:latest
-docker pull prom/prometheus
+docker pull prom/prometheus:latest
 docker pull grafana/grafana:latest
 docker pull bitnami/alertmanager:latest
-docker pull bitnami/postgres-exporter
+docker pull bitnami/postgres-exporter:latest
 docker pull mailhog/mailhog:v1.0.1
