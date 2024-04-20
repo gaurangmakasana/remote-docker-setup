@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sudo su
 apt update
 curl https://get.docker.com/rootless | sh
